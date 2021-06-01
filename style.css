@@ -1,7 +1,7 @@
 body {
   background-color: #feefe5;
       }
-a.one, a.two, a.three, a.four, a.five, a.six, a.seven, a.eight{
+a.one, a.two, a.three, a.four, a.five, a.six, a.seven, a.eight, a.nine{
   display: block;
   padding: 8px;
   background-color: #048ba8;
@@ -10,7 +10,7 @@ a.one, a.two, a.three, a.four, a.five, a.six, a.seven, a.eight{
   font-size: 25px;
   border: solid, #1B4965, 2px;
       }
-a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover, a.seven:hover, a.eight:hover{
+a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover, a.seven:hover, a.eight:hover, a.nine:hover{
   background-color:#08a9cbff;
        } 
 .list{
@@ -54,7 +54,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   .hide{display:none;}
   .hidden_menu{display:block;}
   .link{float:right;}
-  .one, .two, .three, .four, .five, .six, .seven, .eight {pointer-events:none;}
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {pointer-events:none;}
   #page1 .one {background-color: #048ba8;}
   #page2 .two {background-color: #048ba8; }
   #page3 .three {background-color: #048ba8;}
