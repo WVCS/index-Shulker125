@@ -21,27 +21,27 @@
      <div class="wrapper">
        <div class="box head"> <h1 class="heading"> Bikes are Better than Cars </h1></div> 
        <div class="box"> <h1 class="title1"> Why Should I Start Riding My Bike? </h1></div> 
-       <div class="box"> </div> 
+       <div class="box no"> </div> 
        <div class="box"> <div class="info">
     <p> Biking has countless of benefits for yourself and the environment. The obvious one being that biking is really good for building muscles and losing weight. Along with physical benefits, biking greatly imporves mental wellbeing especially during times of stress. Research says that biking frequently can reduce the risks of illnesses like heart disease and cancer. Environmentally speaking, choosing to bike instead of using your car helps decrease the amount of CO2 we release into the atmosphere. Another benefit that makes biking have more of an advantage than using a car is that you can save lots of time and money by not needing to buy fuel or finding a parking spot. There's no end to the list of benefits biking has on you and your comunnity. To learn more, click <a href="https://www.rydoze.com/cycling-benefits/" target="_blank"> here</a> to find how biking can positively impact your life.</p>
   </div></div> 
        <div class="box"> <center><div class="image">
-   <img src="https://raw.githubusercontent.com/WVCS/index-Shulker125/main/Convince/Convince_Logo.png" width="600px">
+   <img src="https://raw.githubusercontent.com/WVCS/index-Shulker125/main/Convince/Convince_Logo.png" width="600px" class="img1">
          </div></center></div> 
        <div class="box"> <div class="title2">
     <h1 class="title2"> Isn't it Easier to Use My Car? </h1>
   </div></div> 
-       <div class="box"> </div> 
+       <div class="box no"> </div> 
        <div class="box"> <div class="counter">
     <p> Not all agree that riding a bike is better than using an automobile. One of the main advantages with using a car to get around is that it is convenient and doesn't require much work. With biking, the rider must have enough endurance in order to get where they want to go. When using a car, you don't have to think twice about how much work it will take to get to your destination. Another problem with cycling is that you are greatly affected by the weather because you don't have any sort of weather protection system. With a car, you have a roof and windows to protect against wind and rain and an air conditioning system to protect against the heat and cold. Though cars seem to have bigger advantages to bikes, the cost of using a car and maintaining it is very high. Along with that, the carbon dioxide emissions are great in a car which is unhealthy for the environment.</p> 
   </div></div> 
        <div class="box"><center> <div class="stat">
     <img src="https://www.europarl.europa.eu/resources/library/images/20190507PHT44958/20190507PHT44958-cl.jpg" style="width:60%" class="stat1">
          </div></center></div> 
-       <div class="box"> </div> 
+       <div class="box no"> </div> 
        <div class="box"> <h1 class="title3"> What Can I Do to Help the Movement? </h1></div> 
        <div class="box"><center> <div class="image_2">
-   <img src="https://a.scpr.org/i/8435e34b3477b837b8595f83ac9b8acc/144514-full.jpg" style="width: 80%"> 
+   <img src="https://a.scpr.org/i/8435e34b3477b837b8595f83ac9b8acc/144514-full.jpg" style="width: 80%" class="img2"> 
          </div></center></div> 
        <div class="box"> <div class="action">
     <p> The best thing you can do is to buy a bike if you don't already have one. It doesn't have to be anything fancy or expensive. Just something you can use to get around to do your daily tasks that you would normally use a car to do. To find out what starting bike is best for you, click <a href="https://www.bicycling.com/bikes-gear/a28034825/best-beginner-bikes/" target="_blank"> here. </a> </p>
@@ -117,6 +117,45 @@
     width: 80%;
     display: flex;
     justify-content: center;
+  }
+  @media(max-width:540px){
+    .wrapper {
+      grid-template-columns: 1fr;
+      top: 70px;
+    }
+    .head {
+      grid-column: 1 / 1;
+    }
+    .info, .action, .counter {
+      font-size: 4vw;
+    }
+    .heading {
+      font-size: 7vw;
+    }
+    ul {
+      display: none;
+    }
+    .title1, .title2, .title3 {
+      font-size: 5vw;
+    }
+    .img1 {
+      width: 100%;
+    }
+    .img2 {
+      width: 10%;
+    }
+    .stat1 {
+      width: 10%;
+    }
+    .box {
+      padding: 10px;
+    }
+    .no {
+      display: none;
+    }
+    .action {
+      height: 80%;
+    }
   }
 </style>
 </html>
