@@ -49,7 +49,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 #page3 .three {
   background-color: #62b6cb; 
 }
-@media(max-width:540px){
+@media(max-width:1300px){
   
   .hide{display:none;}
   .hidden_menu{display:block;}
