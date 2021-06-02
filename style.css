@@ -69,8 +69,11 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 
 .dropdown {
   background-color: rgba(34,34,34,1);
-  position: relative;
+  position: fixed;
   display: inline-block;
+  right: 5px;
+  font-size: 3vw;
+  width: 20vw;
 }
  
 .dropdown-content {
@@ -93,4 +96,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 .dropdown:hover .menuitm {display: block;}
 
 .dropdown:hover .dropbtn {background-color: rgba(74,68,62, 1);}
+  .nav {
+  height: 17vw;
+  }
 }
