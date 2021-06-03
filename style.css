@@ -52,7 +52,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 @media(max-width:540px){
   
   .hide{display:none;}
-  .hidden_menu{display:block; width: 9vw;}
+  .hidden_menu{display:block; width: 8vw;}
   .link{float:right;}
   .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {pointer-events:none;}
   #page1 .one {background-color: #048ba8;}
