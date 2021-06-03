@@ -99,6 +99,6 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 
 .dropdown:hover .dropbtn {background-color: #08a9cbff;}
   .nav {
-  height: 22vw;
+  height: 24vw;
   }
 }
