@@ -61,7 +61,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   
 .dropbtn {
   background-color: #048ba8;
-  padding: 10px;
+  padding: 8px;
   border: none;
   display: block;
   border: 3px solid #1B4965;
@@ -72,7 +72,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   position: fixed;
   display: inline-block;
   right: 5px;
-  font-size: 2.3vw;
+  font-size: 2vw;
   border: solid 3px #1B4965;
   padding: 0;
   margin: 0;
