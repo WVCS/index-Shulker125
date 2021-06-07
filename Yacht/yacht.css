@@ -1,1 +1,33 @@
-
+.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+       }
+.link{
+  float: left;
+ }
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  border: 3px solid black;
+  z-index: 500;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 110px;
+}
+.page {
+  text-decoration: none;
+  font-size: 2.5vw;
+  color: black;
+  text-indent: 20px;
+  padding: 10px;
+}
+.page:hover {
+  color: #BCB8B1;
+  cursor: pointer;
+}
