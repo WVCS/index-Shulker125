@@ -31,3 +31,36 @@
   color: #BCB8B1;
   cursor: pointer;
 }
+.site-links {
+  position: relative;
+  text-align: center;
+  top: 30px;
+  font-weight: bold;
+  font-size: 2vw;
+  width: 100%;
+   color: white;
+}
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  position: relative;
+  top: 50px;
+  grid-gap: 20px;
+  color: white;
+}
+.footer-box {
+  text-decoration: none;
+  font-size: 1vw;
+  
+}
+.footer-box:hover {
+  color: 	#BCB8B1;
+  cursor: pointer;
+    }
+.footer {
+  grid-column: 1 / 5;
+  background-color: black;
+  height: 300px;
+  width: 100%;
+}
