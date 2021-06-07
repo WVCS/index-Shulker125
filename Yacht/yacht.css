@@ -1,3 +1,9 @@
+body {
+ margin: 0; 
+}
+html {
+ scroll-behavior: smooth; 
+}
 .list{
   list-style-type: none;
   margin: 0;
@@ -63,7 +69,4 @@
   background-color: black;
   height: 300px;
   width: 100%;
-}
-.wrapper {
-  left: 0;
 }
