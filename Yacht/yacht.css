@@ -43,7 +43,7 @@ html {
   top: 30px;
   font-weight: bold;
   font-size: 2vw;
-  width: 100%;
+  width: 99%;
    color: white;
 }
 .footer-wrapper {
@@ -68,5 +68,5 @@ html {
   grid-column: 1 / 5;
   background-color: black;
   height: 300px;
-  width: 100%;
+  width: 99%;
 }
