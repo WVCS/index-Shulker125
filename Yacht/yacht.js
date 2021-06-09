@@ -9,13 +9,16 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     
-  document.getElementById("rtrntp").style.display = "block";
-  
+  document.getElementById("one").style.height = "110px";
+  document.getElementById("two").style.width = "7vw";
+  }
   else {
-      document.getElementById('rtrntp').style.display = "none";
+  document.getElementById("one").style.height = "200px";
+  document.getElementById("two").style.width = "12vw";
     }
   
   
 }
+
