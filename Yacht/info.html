@@ -17,7 +17,7 @@
  </div>
   
     <div class="wrapper">
-      <div class="box"> 1</div>
+      <div class="box title1"> Info</div>
       <div class="box"> 1</div>
       <div class="box"> 1</div>
       <div class="box"> 1</div>
@@ -51,14 +51,18 @@
   <style>
      .wrapper {
       position: relative;
-      top: 180px;
+      top: 100px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .box {
       padding: 20px;
     }
-    
+    .title1 {
+      grid-column: 1 / 5;
+      text-align: center;
+      font-size: 8vw;
+    }
   </style>
   <script src="../Yacht/yacht.js">
   
@@ -67,4 +71,3 @@
   
   </script>
 </html>
-
