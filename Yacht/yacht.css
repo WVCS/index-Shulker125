@@ -1,6 +1,7 @@
 body {
  margin: 0;
- background-color: #CBF3F0
+ background-color: #CBF3F0;
+ font-family: Georgia, serif;
 }
 html {
  scroll-behavior: smooth; 
