@@ -48,6 +48,7 @@
     </div>
       </div>
     </div>
+  <button onclick="topFunction()" class="top"> Click Here to Return to Top </button>
   </body>
   <style>
      .wrapper {
@@ -62,6 +63,20 @@
       grid-column: 1 / 5;
       text-align: center;
       font-size: 8vw;
+    }
+    .top {
+      position: absolute;
+      right: 40px;
+      top: 500px;
+      background-color: #FF9F1C;
+      border: 3px solid #FFBF69;
+      border-radius: 3px;
+    }
+    .top:hover {
+      cursor: pointer;
+    }
+    .top:active {
+      background-color: #FF7F1C;
     }
   </style>
   <script src="../Yacht/yacht.js">
