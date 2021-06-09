@@ -35,7 +35,7 @@ html {
   padding: 10px;
 }
 .page:hover {
-  color: #BCB8B1;
+  color: #2EC4B6;
   cursor: pointer;
 }
 .site-links {
@@ -44,7 +44,7 @@ html {
   top: 30px;
   font-weight: bold;
   font-size: 2vw;
-  width: 96.997%;
+  width: 100%;
    color: black;
 }
 .footer-wrapper {
@@ -62,7 +62,7 @@ html {
   
 }
 .footer-box:hover {
-  color: 	#BCB8B1;
+  color: 	#2EC4B6;
   cursor: pointer;
     }
 .footer {
