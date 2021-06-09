@@ -78,3 +78,6 @@ html {
   width: 12vw;
   transition: width 1s;
 }
+.wrapper {
+  top: 200px;
+}
