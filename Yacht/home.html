@@ -19,7 +19,7 @@
   
     <div class="wrapper">
       <div class="box title1"> Home</div>
-      <div class="box img-yacht"><center> <img src="https://www.fraseryachts.com/uploads/image/yachts/ace/Lurssen_yacht_for_sale_Ace_18362.jpg"></div></center>
+      <div class="box img-yacht"><center> <img src="https://www.fraseryachts.com/uploads/image/yachts/ace/Lurssen_yacht_for_sale_Ace_18362.jpg" class="yacht-img"></div></center>
       <div class="box"> 3 Bedroom </div>
       <div class="box"> 1 kitchen </div>
       <div class="box"> 4 bathroom </div>
@@ -81,6 +81,22 @@
     }
     .top:active {
       background-color: #FF5F1C
+    }
+    .yacht-img {
+        width: 90%
+      }
+    @media(max-width:540px){
+      .box {
+        grid-column: 1 / 1;
+      }
+      .wrapper {
+        grid-template-columns: 1fr;
+      }
+      
+      
+      
+      
+      
     }
   </style>
   <script src="../Yacht/yacht.js">
