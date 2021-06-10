@@ -8,8 +8,9 @@ function topFunction() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+   var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width > 540){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     
   document.getElementById("one").style.height = "110px";
   document.getElementById("two").style.width = "7vw";
@@ -18,13 +19,9 @@ function scrollFunction() {
   document.getElementById("one").style.height = "200px";
   document.getElementById("two").style.width = "12vw";
     }
-  
-}
-
-window.scroll = scrollFunction;
-
-if (screen.width < 540) {
-  
-  window.scroll = null;
+   }
+   else {
+     return false;
+   }
   
 }
