@@ -94,7 +94,13 @@ html {
   .footer-box {
     font-size: 4vw;
   }
-  
-  
-  
+  .nav {
+    height: 100px;
+  }
+  #two {
+    width: 25vw;
+  }
+  .page {
+    font-size: 8vw;
+  }
 }
