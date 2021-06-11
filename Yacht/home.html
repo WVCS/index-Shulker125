@@ -54,6 +54,8 @@
       position: relative;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+       background-color: #CBF3F0;
+       border-radius: 15px;
     }
     .box {
       padding: 20px;
@@ -69,7 +71,7 @@
     .top {
       position: absolute;
       right: 40px;
-      top: 1230px;
+      top: 1030px;
       background-color: #FF9F1C;
       border: 3px solid #FFBF69;
       border-radius: 3px;
@@ -82,7 +84,11 @@
       background-color: #FF5F1C
     }
     .yacht-img {
-        width: 90%
+      top: 0;
+      position: fixed;
+      width: 100%;
+      left: 0;
+      z-index: -200;
       }
     @media(max-width:540px){
       .box {
