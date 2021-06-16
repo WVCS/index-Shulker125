@@ -1,3 +1,4 @@
+  
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../Yacht/yacht.css">
@@ -114,12 +115,13 @@
       font-size: 8vw;
     }
     .top {
-      position: absolute;
-      right: 40px;
-      top: 1000px;
+      position: fixed;
+      right: 5px;
+      bottom: 5px;
       background-color: #FF9F1C;
       border: 3px solid #FFBF69;
       border-radius: 3px;
+      z-index: 1000;
     }
     .top:hover {
       cursor: pointer;
@@ -158,6 +160,15 @@
     .crew {
       grid-column: 1 / 5;
     }
+    .centered{
+      text-align: center;
+    }
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:50%;
+    }
     @media (max-width:540px) {
       .box {
         grid-column: 1 / 1;
@@ -175,17 +186,6 @@
       
       
     }
-    .centered{
-      text-align: center;
-    }
-    
-    .center{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width:50%;
-    }
-    
   </style>
   <script src="../Yacht/yacht.js">
   
