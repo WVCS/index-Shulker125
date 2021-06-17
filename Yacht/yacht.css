@@ -86,7 +86,7 @@ html {
 }
 @media(max-width:540px){
   .footer {
-    width: 85%;
+    width: 84%;
   }
   .site-links {
     font-size: 7vw;
