@@ -25,6 +25,7 @@
      
       <div class="box"> 1 kitchen <img src="https://www.luxyachts.com/Assets/img/position_images/article_images/dept_main_galley.png" class="img"></div>
       <div class="box mail"><p class="mail1"> Sign Up For Our Newsletter </p> <input placeholder="Enter Email Here"> </input></div>
+    <div class="box quote"><div class="part1"> Testimonial From Our Last Client</div> <div class="part2">"Best. Ship. Ever. You will not regret this excursion" -Ms. Neumann</div></div>
       <div class="box footer"> 
       <div class="site-links"> Site Links </div>
        <center> <div class="footer-wrapper">
@@ -53,6 +54,7 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
        background-color: #CBF3F0;
        border-radius: 15px;
+       width: 100%;
     }
     .box {
       padding: 20px;
@@ -107,6 +109,21 @@
       top: 70px;
       width: 40%;
       font-size: 1.7vw;
+    }
+    .quote {
+      grid-column: 1 / 5;
+    }
+    .part1 {
+      text-decoration: underline;
+      text-align: center;
+      font-weight: bold;
+      font-size: 4vw;
+      padding: 50px;
+    }
+    .part2 {
+      text-align: center;
+      font-size: 3vw;
+      padding: 50px;
     }
     @media(max-width:540px){
       .box {
