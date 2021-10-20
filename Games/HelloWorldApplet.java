@@ -1,5 +1,5 @@
-import java.applet.*;
-import java.awt.*;
+import java.applet.Applet;
+import java.awt.Graphics;
 
 public class HelloWorldApplet extends Applet {
    public void paint (Graphics g) {
